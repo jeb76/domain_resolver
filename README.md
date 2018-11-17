@@ -1,6 +1,9 @@
 # domain_resolver
 Mikrotik script that resolve domains/keywords and save IP or domain in address-list
 
+# Requirements
+RouterOS version: 6.43.1+
+
 # Usage
 Edit "dataArray" and add address-list name and domain/s or keyword/s to search (All of this between doble quotes and semicolon separated).
 Format: :local dataArray {{"address-list_name";"domain/keyword1";"domain/keyword2";"domain/keywordn"};{"another_address-list_name";"domain/keyword1";"domain/keyword2";"domain/keywordn"}}
