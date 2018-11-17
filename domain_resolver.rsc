@@ -1,7 +1,7 @@
 /system script
 add dont-require-permissions=yes name=domain_resolver owner=admin policy=\
     ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon source="#\
-    \_Resolve domains/keywords and save IP in address-list\
+    \_Resolve domains/keywords and save IP or domain in address-list\
     \n# Version 1.0\
     \n\
     \n# Variables\
